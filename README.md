@@ -27,8 +27,11 @@ We provide the pre-trained 9-frame  refinement model (CPN detected 2D pose as in
 - To train a model from scratch (Ground truth 2D pose as input), run:
 
   `python run.py --train -k gt --lr 1e-3`
-
+- To train a refinement module from scratch(CPN or GT as input), run:
   
+  `python run.py --train --refine -k gt\cpn_ft_h36m_dbb --lr 1e-3`
+  
+
 
 ### Visualization and other functions
 
