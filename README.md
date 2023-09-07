@@ -14,7 +14,7 @@ We provide the pre-trained 9-frame model (CPN detected 2D pose as input) . To ev
 
 We provide the pre-trained 9-frame  refinement model (CPN detected 2D pose as input). To evaluate it, put it into the `./checkpoint/pretrained` directory and run:
 
-`python run.py --test --trans_reload --pretrained_trans model_trans_4903.pth --refine_reload --pretrained_refine model_refine_4849.pth`
+`python run.py --test --refine --trans_reload --pretrained_trans model_trans_4903.pth --refine_reload --pretrained_refine model_refine_4849.pth`
 
 
 
